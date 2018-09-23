@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Test_Task_G5</title>
+  <meta charset="utf-8" >
+  <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  <link rel="stylesheet" href="css/style_index.css">
+</head>
+
+<body>
+    <main>
+        <div class = "container">
+            <header>
+                <img src = "img/logo.png" alt="logo">
+                <p style = "flex-grow: 0.5">G5 Freunden<sup>TM</sup></p>
+                <p>Chatte mit deinen Freunden</p>
+                <div class="select__lang">
+                    <select id = "input" onchange = "top.location=this.value">
+                        <option value="index.html">English</option>
+                        <option value="index_rus.html">Russian</option>
+                        <option value="index_ua.html" >Ukrainian</option>
+                        <option value="index_pl.html">Polish</option>
+                        <option value="index_de.html" selected>German</option>
+                        <option value="index_pt.html">Portuguese</option>
+                        <option value="index_ro.html">Romanian</option>
+                        <option value="index_es.html">Spanish</option>
+                        <option value="index_it.html">Italian</option>
+                        <option value="index_ir.html">Irish</option>
+                        <option value="index_fr.html">French</option>
+                        <option value="index_cs.html">Czech</option>
+                    </select>
+                </div>
+            </header>
+
+            <ul class = "people">
+                <li><a href = "#modal" id = "open">Fran</a></li>
+                <li><a href = "#modal" id = "open">Fran</a></li>
+                <li><a href = "#modal" id = "open">Fran</a></li>
+                <li><a href = "#modal" id = "open">Fran</a></li>
+                <li><a href = "#modal" id = "open">Fran</a></li>
+                <li><a href = "#modal" id = "open">Fran</a></li>
+                <li><a href = "#modal" id = "open">Fran</a></li>
+            </ul>
+
+            <div class="message" id = "msg_text">
+                <i>Fast zehn Jahre waren vergangen, seit die Dursleys aufgewacht waren, um ihren Neffen auf der vordersten Stufe zu finden, aber der Ligusterweg hatte sich kaum verändert. Die Sonne ging auf den gleichen Vorgärten auf und zündete die Messingnummer vier an der Tür der Dursleys an; es kroch in ihr Wohnzimmer, das fast genauso aussah wie in der Nacht, in der Mr. Dursley diesen schicksalhaften Bericht über die Eulen gesehen hatte. Nur die Fotos auf dem Kaminsims zeigten wirklich, wie viel Zeit vergangen war. Vor zehn Jahren gab es viele Bilder von etwas, das wie ein großer pinkfarbener Strandball mit verschiedenfarbigen Hauben aussah - aber Dudley Dursley war kein Baby mehr und nun zeigten die Fotos einen großen blonden Jungen, der sein erstes Fahrrad fuhr</i>
+            </div>
+        </div>
+
+        <section id = "unblock__form">
+            <i class = "fas fa-times close"></i>
+            <div id = "unblock__text">
+                <h3 id = "modal__title">Sind Sie sicher, dass Sie Fran entsperren möchten</h3>
+                <img src = "img/fran.png" alt="picture">
+                <button class = "btn btn__unblock"><i class = "fas fa-ch  ck"></i>Entsperren</button>
+                <button class = "btn btn__cancel">Stornieren</button>
+            </div>
+        </section>
+        <div id = "overlay"></div>
+    </main>
+
+<script  src = "http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src = "js/script.js"></script>
+</body>
+</html>
